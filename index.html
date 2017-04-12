@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src='data/questions.json.js'> </script>
+<script type="text/javascript" src='data/videos.json.js'> </script>
+<script type="text/javascript">
+function fillQuestionsTable()
+{
+	var contents = "";
+	for (var i = 0; i < questions.length; ++i) {
+		contents += "<tr><th>" + i + "</th><td>" + 
+			"<a href=\"question.html?id=" + questions[i].id + "\">" + questions[i].text + "</a>" +
+			"</td></tr>";
+	}
+	document.getElementById("questionsTable").innerHTML = contents;
+}
+
+</script>
+
+</head>
+<body onLoad="fillQuestionsTable()">
+<table border="1" id="questionsTable"></table>
+</body>
+</html>

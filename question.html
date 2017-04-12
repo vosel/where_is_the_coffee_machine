@@ -1,0 +1,113 @@
+<html>
+<head>
+<script type="text/javascript" src='data/questions.json.js'> </script>
+<script type="text/javascript" src='data/videos.json.js'> </script>
+<script type="text/javascript">
+var questionOccurencies = [];
+var questionDescriptor;
+function loadPageData()
+{
+	var qid = location.search.substr(4, location.search.length);
+	questionDescriptor = questions.find(function(elem) {return elem.id == qid});
+	showQuestionInfo(parseInt(qid));
+}
+function showQuestionInfo(questionID)
+{	
+	questionOccurencies = [];
+	for (var i = 0; i < videos.length; ++i) {
+		var currentVideo = videos[i];
+		for (var j = 0; j < currentVideo.questions.length; ++j) {
+			var currentQuestionRef = currentVideo.questions[j];
+			if (currentQuestionRef.question == questionID) {
+				questionOccurencies.push({videoObj:currentVideo, entryInVideo:currentQuestionRef});
+			}
+		}
+	}
+	var contents = "";
+	if (questionOccurencies.length == 0) {
+		contents += "<tr><td>no videos found with the given question</td></tr>";
+	} else {
+		for (var i = 0; i < questionOccurencies.length; ++i) {
+			var youtubeLink = "http://www.youtube.com/watch?v=" + questionOccurencies[i].videoObj.videoID + "&t=" + questionOccurencies[i].entryInVideo.time_code
+			var embedCall = "selectQuestionOccurrenceInVideo(" + i + ")";
+			var anchor = "<a onClick='" + embedCall + "'>" + timeCodeToString(questionOccurencies[i].entryInVideo.time_code) + " - " + questionOccurencies[i].videoObj.title + "</a>";
+			contents += "<tr><td>" + anchor + "</td><td><a href=\"" + youtubeLink + "\">watch on youtube</a></td></tr>";
+		}
+		if (questionOccurencies.length == 1) {
+			selectQuestionOccurrenceInVideo(0);
+		}
+	}
+	document.getElementById("questionPicks").innerHTML = contents;
+}
+function getVideoEntryCorrectionFormCode(videoID, entryID, fieldToCorrect)
+{
+	var result = "<form action='https://docs.google.com/forms/d/e/1FAIpQLSf0hjGsvOCrbDU1VXfKVkc5FtAkgG5gzTzWfmK-dO5ITakD8Q/formResponse' method='post' target='_blank'>"
+	 + "<input type='hidden' name='entry.1251312794' value='" + videoID + "'></input>"
+	 + "<input type='hidden' name='entry.1719810943' value='" + entryID + "'></input>"
+	 + "<input type='hidden' name='entry.144359646' value='" + fieldToCorrect + "'></input>"
+	 + "<input type='text' name='entry.1642459692' placeholder='new value' required></input>"
+	 + "<button>submit</button>"
+	 + "</form>";
+
+	return result;
+}
+function getQuestionFieldCorrectionFormCode(questionID, fieldToCorrect)
+{
+	var result = "<form action='https://docs.google.com/forms/d/e/1FAIpQLSdT0sFHwc-XVJ2yRfrrOxPikxb0rNVpmkf-XbDROlXZO1LRRg/formResponse' method='post' target='_blank'>"
+	 + "<input type='hidden' name='entry.1538524474' value='" + questionID + "'></input>"
+	 + "<input type='hidden' name='entry.1856597797' value='" + fieldToCorrect + "'></input>"
+	 + "<input type='text' name='entry.741206655' placeholder='new value' required></input>"
+	 + "<button>submit</button>"
+	 + "</form>";
+	return result;
+}
+function selectQuestionOccurrenceInVideo(indexToSelect)
+{
+	var selectedOccurrence = questionOccurencies[indexToSelect];
+	var contents = "";
+	contents += "<tr><th>attribute</th><th><b>value</b></th><th>suggest corrections</th></tr>";
+	contents += "<tr><th>time_code</th><td>" + timeCodeToString(selectedOccurrence.entryInVideo.time_code) + "</td><td>" 
+		+ getVideoEntryCorrectionFormCode(selectedOccurrence.videoObj.videoID, selectedOccurrence.entryInVideo.id, "time_code") + "</td></tr>";
+	contents += "<tr><th>text</th><td>" + questionDescriptor.text + "</td><td>" + 
+		getQuestionFieldCorrectionFormCode(selectedOccurrence.entryInVideo.question, "text") + "</td></tr>";
+	contents += "<tr><th>question link</th><td>" + "???" + "</td><td>" + 
+		getQuestionFieldCorrectionFormCode(selectedOccurrence.entryInVideo.question, "question_link") + "</td></tr>";
+	contents += "<tr><th>user link</th><td>" + "???" + "</td><td>" + 
+		getQuestionFieldCorrectionFormCode(selectedOccurrence.entryInVideo.question, "user_link") +"</td></tr>";
+	document.getElementById("questionInfo").innerHTML = contents;
+	embedVideo(selectedOccurrence.videoObj.videoID, selectedOccurrence.entryInVideo.time_code);
+}
+function embedVideo(videoID, offset)
+{
+	document.getElementById("videoFrame").src = "https://www.youtube.com/embed/" + videoID + "?start=" + offset;
+}
+function timeCodeToString(timecode)
+{
+	var result = "";
+	var hours = Math.floor(timecode/3600);
+	if (hours > 0) {
+		result += padWithZeros(hours) + ":";
+	}
+	var mins = Math.floor((timecode - hours * 3600)/60);
+	result += padWithZeros(mins) + ":";
+	var sec = timecode % 60;
+	result += padWithZeros(sec);
+	return result;
+}
+function padWithZeros(num)
+{
+	if (num < 10) {
+		return "0" + num;
+	}
+	return "" + num;
+}
+</script>
+
+</head>
+<body onLoad="loadPageData()">
+<table border="1" id="questionPicks"></table>
+<br>
+<iframe id='videoFrame' width='700' height='400'></iframe>
+<table border="1" id="questionInfo"></table>
+</body>
+</html>
