@@ -54,7 +54,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:53, text:"Who is (was) your favourite wrestling superstar? AND; If you were going to be a wrestling supersl:ar...what would your name be? "}
 ,{id:54, text:"Of you had a bottle filled with any liquid that could never run out what would it be? "}
 ,{id:55, text:"what do you think about the tiny house movement. would you live in a tlny house with only 200 square feet of space? "}
-,{id:56, text:"???"}
+,{id:56, text:"Anyone have any awrsome snow football or snowball fight stories?  I'm lookin' at you Joe."}
 ,{id:57, text:"???"}
 ,{id:58, text:"???"}
 ,{id:59, text:"Assuming Spiderman theory to be true, what radioactive animal would you want to be bitten by? Remember, you don't change your appearance (ie grow wings), just gain their abilities. With my luck, I'd get bitten by a radioactive human. "}
@@ -63,7 +63,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:62, text:"Who do you think would win in a fight, a Shark-zombie (half shark half human zombie) or a zombie-shark (undead shark). "}
 ,{id:63, text:"What do you guys think about the illuminati? Do you believe in it? "}
 ,{id:64, text:"What's the worst buyer's remorse you've had on a purchase? "}
-,{id:65, text:"???"}
+,{id:65, text:"What superhero musical would you want to see? - for me, iron man the musical"}
 ,{id:66, text:"What movie scene never fails to make you cringe? Mine is deflnitely the shaving scene in Cabin Fever. "}
 ,{id:67, text:"Godzilla is attacking Los Angeles. What do you do? "}
 ,{id:68, text:"Have you ever experienced culture shock or reverse culture shock?  That feeling of disorientation you get from being somewhere so alien to what you know, or alternatively living somewhere (like LA) for a while and then visiting home and everything seeming  off kilter. "}
@@ -71,7 +71,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:70, text:"What is your proffered physical method of greeting a close friend? High five, hand shake, chest bump, hug. elbow rub, quick handy, drop kick? "}
 ,{id:71, text:"What is your opinion on pro wrestling? do you like it or dislike it? Also, do you consider it a sport? "}
 ,{id:72, text:"If one of today's Table Talk hosts was replaced by an alien imposer in the last 48 hours how would you convince the other hosts that you were the real you? "}
-,{id:73, text:"???"}
+,{id:73, text:"If your pets could suddenly talk (and were reasonably smart), what's the first thing you'd ask them?"}
 ,{id:74, text:"What are you guy's opinions on Spoilers? What is the right amount of time to leave before spoiling tv shows movies ect. Ps lots of love from New Zealand "}
 ,{id:75, text:"What villain have you crushed on much more than the hero? Mine is Ja'far, and yes, even the weird goatee thing. "}
 ,{id:76, text:"SourceFed Cooksl- The Official SourceFed Cookbook; Who would contribute which recipes? I heard talk of Trisha's family cinnamon buns- I\"Ii come bake with you Trishl "}
@@ -108,7 +108,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:107, text:"If the world was llke the novel Blindness, DV Jose Sararnago, and you were the only person that can see, what would You do? "}
 ,{id:108, text:"What physical feature immediately turns you off?? (Girls who dont take care of thler nails) rttabletalk "}
 ,{id:109, text:"D: What's going on under the table right now?l? "}
-,{id:110, text:"Did you ever meet a persan that you thought they were a asshole put turn up to be a awesome person. P.s you guys BYE BWESOITIE "}
+,{id:110, text:"Did you ever meet a person that you thought they were a asshole put turn up to be a awesome person. P.s you guys are awesome"}
 ,{id:111, text:"What YouTube channels do you guys subscribe to and/or watch regularly? SourceFed & Daily Grace are my shit. "}
 ,{id:112, text:"When you were a kid, what Halloween costume were you proud of? Ashamed of? "}
 ,{id:113, text:"???"}
@@ -139,7 +139,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:138, text:"what was your worst and best present for Christmas or birthday? "}
 ,{id:139, text:"what are your thoughts on Book withdrawaI(The Pain that sets in after finishing an amazing book/series or havmg to wait a sequel). Ps Any recommendations after House of Hades. "}
 ,{id:140, text:"Have you ever pretended to like or not like something just to seem cool? "}
-,{id:141, text:"How do you get motivated on the days where you just want to do naming? "}
+,{id:141, text:"How do you get motivated on the days where you just want to do nothing?"}
 ,{id:142, text:"Imagine you are told 10 years in advance that you will be Uansported back in time 300 years. You will be forced to live the rest of your life in that time. How would you prepare for your ordeal? "}
 ,{id:143, text:"What's the most awkward thing that you've witnessed in public? "}
 ,{id:144, text:"what names would each hosts look like assuming no one knows each other's names? "}
@@ -188,7 +188,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:187, text:"If you were in the movie Cast Away in me place or Tom Hanks, which inanimate object would you befriend? (No, you cannot plck Wllsonl) "}
 ,{id:188, text:"Do you think people are born inherently good or evil or are they molded throughout life "}
 ,{id:189, text:"What mtional character would you want by your side in a real life horror movie? "}
-,{id:190, text:"j-] Greypllik E .:;m:; : 5,  what are some video games that have really effected you an an :al level? Made you really happy or really sad?    "}
+,{id:190, text:"what are some video games that have really effected you at an emotional level? Made you really happy or really sad?"}
 ,{id:191, text:"what was your hardest, scariest, or weirdest - interview/auditions experience? "}
 ,{id:192, text:"Do you think - made to satisfy existing fans are a bad hing? re Riddlck not drawing In many new fans, but pleasing old fans "}
 ,{id:193, text:"If all of Sourcefed crew had to be characters from Breaking Bad who would be who and why? "}
@@ -683,7 +683,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:682, text:"Favorite mythical creature, why? "}
 ,{id:683, text:"thoughts on standardized testing. "}
 ,{id:684, text:"how do you think your name (birth or nlckname) has affected who you've become nahlotalk "}
-,{id:685, text:"can you imagine me without the Internet? "}
+,{id:685, text:"Can you imagine life without the Internet?"}
 ,{id:686, text:"who do you want to be the next Doctor? "}
 ,{id:687, text:"???"}
 ,{id:688, text:"wsourcemd whlch company is more likely to succeed in becoming Skynet...AppIe. Google, or Mbcrosolt? Wablofulk "}
