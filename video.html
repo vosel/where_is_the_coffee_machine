@@ -1,0 +1,62 @@
+<html>
+<head>
+<script type="text/javascript" src='data/questions.json.js'> </script>
+<script type="text/javascript" src='data/videos.json.js'> </script>
+<script type="text/javascript" src='utils.js'> </script>
+<script type="text/javascript">
+var videoEvents = [];
+var videoDescriptor;
+function loadPageData()
+{
+	var vidID = location.search.substr(4, location.search.length);
+	videoDescriptor = videos.find(function(elem) {return elem.videoID == vidID});
+
+	videoEvents = [];
+	for (var i = 0; i < videoDescriptor.questions.length; ++i) {
+		var currentQuestion = videoDescriptor.questions[i];
+		var entryID = currentQuestion.id;
+		var qid = currentQuestion.question;
+		var time_code = currentQuestion.time_code;
+		videoEvents.push({entryID:entryID, time:time_code, question:getQuestion(qid)} );
+	}
+	videoEvents.sort(function (left, right) {return left.time - right.time;} );
+	
+	var contents = "<tr><th>time code</th><th>text</th><th></th><th></th></tr>";
+	for (var i = 0; i < videoEvents.length; ++i) {
+		var current = videoEvents[i];
+		contents += "<tr><td>" + timeCodeToString(current.time)
+			+ "</td><td>" + current.question.text
+			+ "</td><td>" + "<button onClick='navigateToEvent(" + i + ")'>play</button>"
+			+ "</td><td>" + "suggest correction"
+			+ "</td></tr>";
+	}
+	document.getElementById("eventsTable").innerHTML = contents;
+}
+
+function navigateToEvent(indexToSelect)
+{
+	var selectedEvent = videoEvents[indexToSelect];
+	var contents = "";
+	
+	contents += "<tr><th>attribute</th><th><b>value</b></th><th>correction suggestions</th></tr>";
+	contents += "<tr><th>time_code</th><td>" + timeCodeToString(selectedEvent.time) + "</td><td>" 
+		+ getVideoEntryCorrectionFormCode(videoDescriptor.videoID, selectedEvent.entryID, "time_code") + "</td></tr>";
+	contents += "<tr><th>text</th><td>" + selectedEvent.question.text + "</td><td>" + 
+		getQuestionFieldCorrectionFormCode(selectedEvent.question.id, "text") + "</td></tr>";
+	contents += "<tr><th>question link</th><td>" + "???" + "</td><td>" + 
+		getQuestionFieldCorrectionFormCode(selectedEvent.question.id, "question_link") + "</td></tr>";
+	contents += "<tr><th>user link</th><td>" + "???" + "</td><td>" + 
+		getQuestionFieldCorrectionFormCode(selectedEvent.question.id, "user_link") +"</td></tr>";
+	document.getElementById("questionInfo").innerHTML = contents;
+	embedVideo("videoFrame", videoDescriptor.videoID, selectedEvent.time, true);
+}
+</script>
+
+</head>
+<body onLoad="loadPageData()">
+<table border="1" id="eventsTable"></table>
+<br>
+<iframe id='videoFrame' width='700' height='400'></iframe>
+<table border="1" id="questionInfo"></table>
+</body>
+</html>
