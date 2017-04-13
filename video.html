@@ -21,13 +21,12 @@ function loadPageData()
 	}
 	videoEvents.sort(function (left, right) {return left.time - right.time;} );
 	
-	var contents = "<tr><th>time code</th><th>text</th><th></th><th></th></tr>";
+	var contents = "<tr><th>time code</th><th>text</th><th></th></tr>";
 	for (var i = 0; i < videoEvents.length; ++i) {
 		var current = videoEvents[i];
 		contents += "<tr><td>" + timeCodeToString(current.time)
 			+ "</td><td>" + current.question.text
 			+ "</td><td>" + "<button onClick='navigateToEvent(" + i + ")'>play</button>"
-			+ "</td><td>" + "suggest correction"
 			+ "</td></tr>";
 	}
 	document.getElementById("eventsTable").innerHTML = contents;
