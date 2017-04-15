@@ -35,7 +35,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:34, text:"What's is something you \"knocked until you tried it\" (food, activity, etc.)? "}
 ,{id:35, text:"Who is your favorite B or C-list superhero? (No big names like Supemzan, Batman, Splder-Man, etc.) "}
 ,{id:36, text:"what's your favorite current band that you wish would stop making muslc to uphold a memory of their older music? "}
-,{id:37, text:"???"}
+,{id:37, text:"What is your go-to recipe for when you go to someone's house for a potluck? Mine is a spinach and artichoke dip."}
 ,{id:38, text:"How do you like your eggs? "}
 ,{id:39, text:"Best place to meet single girls in their 20's? That isn't in a bar, club or party "}
 ,{id:40, text:"You're an evil genius. How would you go about taking over the world? "}
@@ -732,7 +732,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:731, text:"???"}
 ,{id:732, text:"???"}
 ,{id:733, text:"???"}
-,{id:734, text:"???"}
+,{id:734, text:"mancaping?"}
 ,{id:735, text:"???"}
 ,{id:736, text:"You can have a miniature version of a city or town from anywhere around the world in your home and can see everything happening in real-time (people and everything), but you can't influence it. What city/town would you choose? I'd choose New York City because of the huge variety of culture. "}
 ,{id:737, text:"???"}
@@ -778,7 +778,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:777, text:"???"}
 ,{id:778, text:"???"}
 ,{id:779, text:"would you rather have complete knowledge of one subject or field (mathematics, physics, music etc,) or limited general knowledge of every subject known? "}
-,{id:780, text:"???"}
+,{id:780, text:"Do you have any weird traditions and/or superstitions?"}
 ,{id:781, text:"Best gaming food while on a playthrough/all-nighter? Pizza? Doritos? Seared duck? "}
 ,{id:782, text:"???"}
 ,{id:783, text:"???"}
