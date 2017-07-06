@@ -1295,7 +1295,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1294, text:"tvsourcafed if you could have any insignificant superpower what would it be? e.g the power to change traffic lights ittablalallt "}
 ,{id:1295, text:"If you we're being sent to space to explore the unknown. which five people would you chose to be on your exploration team #&louIk "}
 ,{id:1296, text:"What's you're best/worst memory from high school? #tablotaIk "}
-,{id:1297, text:" <g what do you know/know how to do that you're very proud of? examples: juggling. making a pie crust. Swahili Mablctalk "}
+,{id:1297, text:"@stevezaragoza What do you know/know how to do that you're very proud of? examples: juggling, making a pie crust, Swahili #tabletalk"}
 ,{id:1298, text:"mablatalk what is your favourite accent? "}
 ,{id:1299, text:"If you found out that our universe is actually a computer simulation, would you be upset or would you simply accept that fact and move on. "}
 ,{id:1300, text:"@stevezaragoza inablolatk Do other peopie's appearances effect the way you seelfeel about the individual? Do appearances really matter? "}
