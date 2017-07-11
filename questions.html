@@ -1,23 +1,46 @@
 <html>
 <head>
+<script type="text/javascript" src='data/hostsForTableTalks.json.js'> </script>
 <script type="text/javascript" src='data/questions.json.js'> </script>
 <script type="text/javascript" src='data/videos.json.js'> </script>
+<script type="text/javascript" src='utils.js'> </script>
 <script type="text/javascript">
+function loadPageData()
+{
+	loadFilteringTable("filteringOfHosts");
+	fillQuestionsTable();
+}
+
+function hostsFilteringSetChanged()
+{
+	fillQuestionsTable();
+}
+
 function fillQuestionsTable()
 {
+	var questionsMatchingFilter = filterOutQuestionsByVideoIDs(questions, document.getElementById("filteringExclusivityFlag").checked);
 	var contents = "";
-	for (var i = 0; i < questions.length; ++i) {
+	for (var i = 0; i < questionsMatchingFilter.length; ++i) {
 		contents += "<tr><th>" + i + "</th><td>" + 
-			"<a href=\"question.html?id=" + questions[i].id + "\">" + questions[i].text + "</a>" +
+			"<a href=\"question.html?id=" + questionsMatchingFilter[i].id + "\">" + questionsMatchingFilter[i].text + "</a>" +
 			"</td></tr>";
 	}
 	document.getElementById("questionsTable").innerHTML = contents;
+	document.getElementById("tableSummary").innerHTML = "In the table below: " + questionsMatchingFilter.length + " questions";
 }
 
 </script>
 
 </head>
-<body onLoad="fillQuestionsTable()">
+<body onLoad="loadPageData()">
+<input type='button' onclick='selectEveryoneForFiltering(),hostsFilteringSetChanged()' value='Select everyone' />
+<input type='button' onclick='deselectEveryoneFromFiltering(),hostsFilteringSetChanged()' value='Unselect everyone'/>
+<input type='checkbox' onclick='hostsFilteringSetChanged()' id='filteringExclusivityFlag'>only show videos with ALL selected hosts</input>
+<br>
+<table id="filteringOfHosts"></table>
+<br>
+<label id='tableSummary'></label>
+<br>
 <table border="1" id="questionsTable"></table>
 </body>
 </html>

@@ -1,5 +1,6 @@
 <html>
 <head>
+<script type="text/javascript" src='data/hostsForTableTalks.json.js'> </script>
 <script type="text/javascript" src='data/questions.json.js'> </script>
 <script type="text/javascript" src='data/videos.json.js'> </script>
 <script type="text/javascript" src='utils.js'> </script>
@@ -9,25 +10,47 @@ function loadPageData()
 	videos.sort(function (left,right) {
 		return left.publishDate < right.publishDate ? 
 			-1 : (left.publishDate > right.publishDate ? 1 : 0);});
+
+	loadFilteringTable("filteringOfHosts");
+	loadVideosTable();
+}
+
+function hostsFilteringSetChanged()
+{
+	loadVideosTable();
+}
+
+function loadVideosTable()
+{
+	var videosMatchingFilter = filterOutVideosIDs(videos, document.getElementById("filteringExclusivityFlag").checked);
 	var tableData = "<tr><th></th><th>publish date</th><th>title</th><th>duration</th><th>questions count</th></tr>";
 	var totalDuration = 0;
 	var totalQuestions = 0;
-	for (var i = 0; i < videos.length; ++i) {
-		totalDuration += videos[i].duration;
-		var currentQuestionsCount = videos[i].questions.length;
+	for (var i = 0; i < videosMatchingFilter.length; ++i) {
+		totalDuration += videosMatchingFilter[i].duration;
+		var currentQuestionsCount = videosMatchingFilter[i].questions.length;
 		totalQuestions += currentQuestionsCount;
 		tableData += "<tr><th>" + i + "</th><td>" 
-			+ videos[i].publishDate.substr(0, 10) + "</td><td>" 
-			+ "<a href='video.html?id=" + videos[i].videoID + "'>" + videos[i].title + "</a>" + "</td><td>" 
-			+ timeCodeToString(videos[i].duration) + "</td><td>" + currentQuestionsCount + "</td></tr>";
+			+ videosMatchingFilter[i].publishDate.substr(0, 10) + "</td><td>" 
+			+ "<a href='video.html?id=" + videosMatchingFilter[i].videoID + "'>" + videosMatchingFilter[i].title + "</a>" + "</td><td>" 
+			+ timeCodeToString(videosMatchingFilter[i].duration) + "</td><td>" + currentQuestionsCount + "</td></tr>";
 	}
 	tableData += "<tr><th></th><th></th><th>TOTAL:</th><th>" + timeCodeToString(totalDuration) + "</th><th>" + totalQuestions + "</th></tr>";
-	
 	document.getElementById("videosTable").innerHTML = tableData;
+	document.getElementById("tableSummary").innerHTML = "In the table below: " + videosMatchingFilter.length + " videos (total runtime: " + timeCodeToString(totalDuration) + "), with " + totalQuestions + " questions.";
 }
+
 </script>
 </head>
 <body onLoad="loadPageData()">
+<input type='button' onclick='selectEveryoneForFiltering(),hostsFilteringSetChanged()' value='Select everyone' />
+<input type='button' onclick='deselectEveryoneFromFiltering(),hostsFilteringSetChanged()' value='Unselect everyone'/>
+<input type='checkbox' onclick='hostsFilteringSetChanged()' id='filteringExclusivityFlag'>only show videos with ALL selected hosts</input>
+<br>
+<table id="filteringOfHosts"></table>
+<br>
+<label id='tableSummary'></label>
+<br>
 <table border="1" id="videosTable"></table>
 </body>
 </html>
