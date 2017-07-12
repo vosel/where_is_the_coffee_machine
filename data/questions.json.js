@@ -730,7 +730,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:729, text:"tttabletalk is binge viewing the new nonn? Ie marathon viewing the new arrested development . ", videos: ["z4504w1GRLI"]}
 ,{id:730, text:"would you rather a world with no colour or no music? rnabletalk ", videos: ["z4504w1GRLI"]}
 ,{id:731, text:"Having lots of tattoos. Attractive or Tacky?  ", videos: ["z4504w1GRLI"]}
-,{id:732, text:"thoughts on Jay Leno actually giving up his ", videos: ["fp1j61yuPyQ"]}
+,{id:732, text:"thoughts on Jay Leno actually giving up his seat to Jimmy Fallon next year.", videos: ["fp1j61yuPyQ"]}
 ,{id:733, text:"What is your most treasured memory?  ", videos: ["EcPZGzZT15Q"]}
 ,{id:734, text:"mancaping?", videos: ["EcPZGzZT15Q"]}
 ,{id:735, text:"#tabletalk if you had to be stuck in a Halloween cus'(ume(makeup and all) for the rest of your life, what would you choose? ", videos: ["EcPZGzZT15Q"]}
@@ -1213,7 +1213,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1212, text:"I'm heacling to LA soon, anything I should check out while there? ", videos: ["3FF1CUGo2_Y"]}
 ,{id:1213, text:"DO YOU have any dE3l breakers when it (OITIES to being sameone's Hiencr? \nEX: YEBI1 SHE'S COOL but Sl'IE SO I COUICI never be her FI'iEl1Cl. ", videos: ["4s9WFDfvPb4"]}
 ,{id:1214, text:"Have you ever gone out with a Fan?? ", videos: ["4s9WFDfvPb4"]}
-,{id:1215, text:"Will is now the Presicient oi the Uniteci States. How cio you prepare? ", videos: ["4s9WFDfvPb4"]}
+,{id:1215, text:"Will is now the President of the United States. How do you prepare?", videos: ["4s9WFDfvPb4"]}
 ,{id:1216, text:"Have you ever had diarrhia? H so, when? What was your favorite part about it? ", videos: ["4s9WFDfvPb4"]}
 ,{id:1217, text:"H you clesignecl a Westworlcl style park, wI1al era/theme would it Lei ", videos: ["4s9WFDfvPb4"]}
 ,{id:1218, text:"Do you think we were designed for monogamy? ", videos: ["4s9WFDfvPb4"]}
@@ -1322,7 +1322,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1321, text:"@thatgr1trish Do u think networks like TLC and A&E will ever return 2 their original programming, Or R they traped in reality tv ", videos: ["XJtJ5M3bxLI"]}
 ,{id:1322, text:"@thatgmrish uploading a human consciousness to the intemet? mabletalk ", videos: ["XJtJ5M3bxLI"]}
 ,{id:1323, text:"mhatgrltrish The rldlculous price of college tuition Wablotalk ", videos: ["pRmUu4IcBH4"]}
-,{id:1324, text:"???", videos: ["pRmUu4IcBH4"]}
+,{id:1324, text:"@thatgrltrish @sourcefed today's youth's political knowledge #tabletalk", videos: ["pRmUu4IcBH4"]}
 ,{id:1325, text:"@thatgrItrish Scariest movie you've ever seen ::TnbIoTaIk ", videos: ["pRmUu4IcBH4"]}
 ,{id:1326, text:"Omatgrltrish M. Thatcher's death and how we fell about It? nahlotnlk ", videos: ["pRmUu4IcBH4"]}
 ,{id:1327, text:"@thatgmrlsh Gsourcefed Can video games be regarded as an art form, especially fonowing the release of Bloshock Infinite? ::TabletaIk ", videos: ["pRmUu4IcBH4"]}
@@ -1479,7 +1479,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1478, text:"(1 Ph1'11yD #Tab1eTa1k female politicians ", videos: ["1ImRt3W9S-s"]}
 ,{id:1479, text:"What are your tho ending this summ  4-  ughts on breaking bad er? r:Tab1eTa1k ", videos: ["1ImRt3W9S-s"]}
 ,{id:1480, text:"If you could sum up your entire me with I  j ", videos: ["MePhkmCaa_E"]}
-,{id:1481, text:"???", videos: ["MePhkmCaa_E"]}
+,{id:1481, text:"Worst fight scene (could be from TV or film).", videos: ["MePhkmCaa_E"]}
 ,{id:1482, text:"best Vampire movie? Werewolf movie? ", videos: ["MePhkmCaa_E"]}
 ,{id:1483, text:"Wha1arayouruIesforpersonalspaceinregardstostIangers7Forinstancedoeskbotmryoutobe touchedbysomeoneyoudon'tknowverywelI? ", videos: ["MePhkmCaa_E"]}
 ,{id:1484, text:"@sourcafed @SourceFedNERD sttabletalk How did you imagine you were going to lose your virginity? (mine was by a fireplace in the swiss alps) ", videos: ["MePhkmCaa_E"]}
@@ -1674,7 +1674,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1673, text:"What are your favorite Christmas memories as kids? Do you plan on perpetuating a Christmas tradition from when you were a kid to the next generation in your family? ", videos: ["4wqJrgdGuzU"]}
 ,{id:1674, text:"@SourceFedNERD Has there ever been a time where a prank has gone too far? #TabIeTaIk ", videos: ["4wqJrgdGuzU"]}
 ,{id:1675, text:"What was the most awkward/uncomfortable or strangest moment at a family gathering. My young cousin lifted up his leg and let rip a massive fart in the living room after a funeral. Everyone pretended it didn't happen while I had to leave the room. ", videos: ["4wqJrgdGuzU"]}
-,{id:1676, text:"???", videos: ["vQPb-qgsh04"]}
+,{id:1676, text:"What is one gadget or piece of technology you would like to see and expect to be created in the near future?", videos: ["vQPb-qgsh04"]}
 ,{id:1677, text:"@SourceFedNERD if you could change or add one thing to the human anatomy that would benem society what would you change or add #TableTalk ", videos: ["vQPb-qgsh04"]}
 ,{id:1678, text:"If you could have any creature (real/mythical) what would it be? ", videos: ["vQPb-qgsh04"]}
 ,{id:1679, text:"Better date idea: 505 drive in or 20s Gatsby party? ", videos: ["vQPb-qgsh04"]}
@@ -2311,9 +2311,9 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:2310, text:"Explain your flrst day at sourceFed as a host. were you nervous? who was the first person that you were able to connect with? ", videos: ["p_tfzfslg0Q"]}
 ,{id:2311, text:"How much money would you need to oonvlnce you to get dreadlocks ", videos: ["p_tfzfslg0Q"]}
 ,{id:2312, text:"What was the most awkward moment you've had with your friend's mom? ", videos: ["p_tfzfslg0Q"]}
-,{id:2313, text:"???", videos: ["XKFAq5IHv10"]}
+,{id:2313, text:"@SourceFedNERD If you could be any mythical creature (werewolf, ghost, zombie, etc.) what would you be and why? #SFHalloweenTT", videos: ["XKFAq5IHv10"]}
 ,{id:2314, text:"???", videos: ["XKFAq5IHv10"]}
-,{id:2315, text:"???", videos: ["XKFAq5IHv10"]}
+,{id:2315, text:"CHANGE YOUR NAMES INTO HALLOWEEN NAMES (ex. Gerard = Scare-ard) -- GO! #SFHalloweenTT", videos: ["XKFAq5IHv10"]}
 ,{id:2316, text:"???", videos: ["XKFAq5IHv10"]}
 ,{id:2317, text:"???", videos: ["XKFAq5IHv10"]}
 ,{id:2318, text:"???", videos: ["XKFAq5IHv10"]}
@@ -2530,7 +2530,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:2529, text:"Denny's, IHOP, or Village Inn? #TabIeTalk ", videos: ["mN9GVdCejkk"]}
 ,{id:2530, text:"@SourceFedNERD What is the weirdest thing that has been in your mouth mabletalk ", videos: ["mN9GVdCejkk"]}
 ,{id:2531, text:"@SourceFedNerd ittabletalk hey I would like to know how to get out of the friend zone with a girl I like from both a male and female view? ", videos: ["mN9GVdCejkk"]}
-,{id:2532, text:"???", videos: ["wb9sN_PYOA4"]}
+,{id:2532, text:"What are some idiosyncrasies that you've inherited from family, friends, or even co-workers at SFN? #tabletalk #zaragoza4life", videos: ["wb9sN_PYOA4"]}
 ,{id:2533, text:"if the secret to eternal youth was eating the most disgusting food everyday what would it be and why iitabletalk @stevezaragoza ", videos: ["wb9sN_PYOA4"]}
 ,{id:2534, text:"What is your favorite flavor and place to get/brand of ice cream? ", videos: ["KG1OQnlLggQ"]}
 ,{id:2535, text:"@SourceFedNERD If you had to choose 2 of the SF crew to help you survive the Zombie Apocalypse, who would they be 8. why? #TableTalk ", videos: ["KG1OQnlLggQ"]}
@@ -2700,9 +2700,9 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:2699, text:"Out of all the sourcefed hosts, which two would make the ultimate child? #tabletalk ", videos: ["j2x1fmf5qsI"]}
 ,{id:2700, text:"@PhillyD if the Sourcefed crew were to become a sports team, what sport would they play? #TableTalk ", videos: ["j2x1fmf5qsI"]}
 ,{id:2701, text:".-sourcefed Do you thin a when 'spoiIIng' the end of an ol comes acceptable? via ", videos: ["UqbddQCeeq4"]}
-,{id:2702, text:"???", videos: ["6KVXYKuIUTE"]}
-,{id:2703, text:"???", videos: ["ecEjBk2HIms"]}
-,{id:2704, text:"???", videos: ["PJaez9HeYAg"]}
+,{id:2702, text:"Do you think you overuse exclamation points in text-based conversations? Be honest. Don't be afraid to be critical of yourself.", videos: ["6KVXYKuIUTE"]}
+,{id:2703, text:"\"When was the last time you went on a date?\"", videos: ["ecEjBk2HIms"]}
+,{id:2704, text:"What was your favorite moment at comic con this year? Mine was being able to meet all of you! (& high fiving the cast of the walking dead).", videos: ["PJaez9HeYAg"]}
 ,{id:2705, text:"Can Joe Bere&a be in Super Troopers 2'? #LemmeTahleTaIk P.S. - Joe is the best. I love him. So will you. Won't watch unless Joe is in it. ", videos: ["TTrKK_DHpR4"]}
 ,{id:2706, text:"uaunuu u...n.  Any news on p before Willy Nelson is so much fertilize  oi fest?? Been waiting and waiting, you guys need to hurry r illemmetabletalk ", videos: ["TTrKK_DHpR4"]}
 ,{id:2707, text:". , ..... 4.. . ,,,  if you had the choice to change one thing about the human anatomy (Le wings, stomach pouch for easy pop tart transportation) what would you choice?  webbed feet, ", videos: ["TTrKK_DHpR4"]}
