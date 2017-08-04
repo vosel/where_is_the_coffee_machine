@@ -916,7 +916,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:915, text:"Out 0* all the past hosts, who inspired you the most... \neither personally or comically ancl why? ", videos: ["1gWg2WXL9l0"]}
 ,{id:916, text:"What was the most annoying thing you ever sat on \nand what Face did you make when you did it? ", videos: ["EdAxcm2mn1w"]}
 ,{id:917, text:"EXPIiiI1 The Rock to someone who's never seen The ROCl( IIEIOTE: \nEXAMPLE: He,s like Usher made physical love to The Incretiible Hull; \n(and the baby was delivered lay Eddie Murphy) ", videos: ["EdAxcm2mn1w"]}
-,{id:918, text:"I noticecl Dance Moms, is scored 4.6/I0 on IMDB \nand a 96% on rotten tomatoes. What do you think that means? h ", videos: ["EdAxcm2mn1w"]}
+,{id:918, text:"I noticecl 'Dance Moms' is scored 4.6/10 on IMDB and a 96% on Rotten Tomatoes. What do you think that means?", videos: ["EdAxcm2mn1w"]}
 ,{id:919, text:"You ever cry at a parade? Why or why not? ", videos: ["ti5ZZA4IGmU"]}
 ,{id:920, text:"Name something you've Felt real dumb about recently. ", videos: ["ti5ZZA4IGmU"]}
 ,{id:921, text:"1  Whats on that little TV toclay, ancl l1ow tloes it mal(e you leel? ", videos: ["ti5ZZA4IGmU"]}
@@ -927,7 +927,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:926, text:"If there was one thing, doesn't matter what... \nthat you could have your body produce, what would it be and why? ", videos: ["QcyBH8RKCQg"]}
 ,{id:927, text:"You look up and a puppy, a kitten, and a bear cub are all falling \nfrom the sky. Presumably, you can only cakh one. ", videos: ["AV-hygSEeK0"]}
 ,{id:928, text:"What is something that you question everyday? ", videos: ["AV-hygSEeK0"]}
-,{id:929, text:"WI1at's the most overbearing your parents have ever been, \nand what was it about? ", videos: ["AV-hygSEeK0"]}
+,{id:929, text:"What's the most overbearing your parents have ever been, and what was it about?", videos: ["AV-hygSEeK0"]}
 ,{id:930, text:"If you coulcl stop your past self from cloing something... \nwhat would it be and wlwy? ", videos: ["RaCznOpnAyE"]}
 ,{id:931, text:"Have you ever thought of an amazing idea/invention... \nas a kid? ", videos: ["RaCznOpnAyE"]}
 ,{id:932, text:"You're at the airport. Luggage, spencling cash, airhre, anything... \nyou need is all covered. Where would you go? ", videos: ["RaCznOpnAyE"]}
@@ -945,8 +945,8 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:944, text:"How important is tweridng? Not, is tweridng important. ", videos: ["Ih-j7ez7tsA"]}
 ,{id:945, text:"What's a bail movie that you like? Personally I have a sok spot \nfor Con Air. ", videos: ["Ih-j7ez7tsA"]}
 ,{id:946, text:"Who would win in a Hght; Drake from the Hotline Bling vicleo \nor Christopher Walken lirom the Fathoy Slim video? ", videos: ["ARgaOycIV3Q"]}
-,{id:947, text:"HOW ITIUCI1 anal iS I00 much anal? ", videos: ["ARgaOycIV3Q"]}
-,{id:948, text:"What was your Hrst job interview like? ", videos: ["ARgaOycIV3Q"]}
+,{id:947, text:"How much anal is too much anal?", videos: ["ARgaOycIV3Q"]}
+,{id:948, text:"What was your first job interview like?", videos: ["ARgaOycIV3Q"]}
 ,{id:949, text:"How awesome would it be if you could actually have a sourpatch kid?   ", videos: ["rfPa4oA44a0"]}
 ,{id:950, text:"Give us your best man/maid of honor wedding speech in under 30 seconds. ", videos: ["rfPa4oA44a0"]}
 ,{id:951, text:"Chili on hot dogs or nah? ", videos: ["rfPa4oA44a0"]}
@@ -978,7 +978,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:977, text:"How much is too much? ", videos: ["rGc85Gawxbc"]}
 ,{id:978, text:"Wlmo would win in a Hght between a box of animal crackers and a \nbox of Teddy Grahams? ", videos: ["nL7OKDr5ZTQ"]}
 ,{id:979, text:"What are your sleeping arrangements? Batk, stomach, side, one \npillow, or two, or more? Fully coveretl always? Sheet? Blanket? \nSticlx a leg out because it's luclxing hot but you still want to be covered? l ", videos: ["nL7OKDr5ZTQ"]}
-,{id:980, text:"1  ll: YOU COIIH have any PEYSOIIIS VOi(e, WIIO WOUICI you (H0052? ", videos: ["nL7OKDr5ZTQ"]}
+,{id:980, text:"If you could have any person's voice, who would you choose?", videos: ["nL7OKDr5ZTQ"]}
 ,{id:981, text:"Weirdest snapthat experience? ", videos: ["nL7OKDr5ZTQ"]}
 ,{id:982, text:"Best hole-in-the-wall restaurant experience? ", videos: ["nL7OKDr5ZTQ"]}
 ,{id:983, text:"Your family is starving, you can either steal bread For them. \nor somebody oHers you a Jigerenl perfectly good Family, no strings attached: ", videos: ["O2DsP6oUEL4"]}
@@ -998,7 +998,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:997, text:"ll you could have any tattoo that you don't already l1ave, wl'Iat would it be? ", videos: ["uJnuHV8d3B0"]}
 ,{id:998, text:"What is the best S5 or less you have ever spent? ", videos: ["uJnuHV8d3B0"]}
 ,{id:999, text:"Have you ever scooped a [art into your Face so that you coulcl enjoy \njust how disgusting the insicle of your body is? ", videos: ["uJnuHV8d3B0"]}
-,{id:1000, text:"Do you have a creepy work habit? Dicl you usecl to have one? \nI'm talkin big loud snigs. I'm talkin pushing people out o  the way \nand stopping others from making some iust so I can smell ALL the t a. ", videos: ["uJnuHV8d3B0"]}
+,{id:1000, text:"Do you have a creepy work habit? Did you used to have one? I work at a cafe and I LOVE to smell the tea when I make some. I'm talkin big loud sniffs. I'm talkin pushing people out of the way and stopping others from making some just so I can smell ALL the tea. ", videos: ["uJnuHV8d3B0"]}
 ,{id:1001, text:"Describe the properties/tokens that would make up a SourceFecI   \nMonopoly game. ", videos: ["uJnuHV8d3B0"]}
 ,{id:1002, text:"What was the most satisfying \"I told you so\" you have ever said?   ", videos: ["uJnuHV8d3B0"]}
 ,{id:1003, text:"What's your go to nightmare? ", videos: ["2ZuomakRWUs"]}
@@ -1009,7 +1009,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1008, text:"If someone put a curse on you that made it so you could only \nspeak in dog, and the onry way to reverse the curse was to l1ave  \nsex with Jon Hamm, John Malkovich, or John Goodman, whicl; \nJohn WOUICI YOU Ch00SE? ", videos: ["2ZuomakRWUs"]}
 ,{id:1009, text:"ll all 'normal' edible Food was suddenly gone and only soylent... \nwas Ht; would you clrink soylent or become a tannilual? ", videos: ["v8HHKyRrRG0"]}
 ,{id:1010, text:"ll you had to be hall person, lmall animal, what animal woulcl it... \nbe ancl how would you be split? ", videos: ["v8HHKyRrRG0"]}
-,{id:1011, text:"H you coulcl manufacture a nightmare for someone you don't... \nlike, what woulcl it be and who woulcl you unleash it on? ", videos: ["v8HHKyRrRG0"]}
+,{id:1011, text:"If you could manufacture a nightmare for someone you don't like, what would it be and who would you unleash it on?", videos: ["v8HHKyRrRG0"]}
 ,{id:1012, text:"H you coulcl be immortal ancl it clicln't cost anything, but you... \n would have to start over from a 16 year old. ", videos: ["v8HHKyRrRG0"]}
 ,{id:1013, text:"How would you react if you had to take care 0* the one year oH...  \n...version of yourself For one clay? ", videos: ["j-4EJaNON3g"]}
 ,{id:1014, text:"H you could have one song playing everytime you die] the sex... \n what would it be? ", videos: ["j-4EJaNON3g"]}
@@ -1020,7 +1020,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1019, text:"What situation do you hope to one day Hnd yourself in, in... \n...orcler to be able to tell the perfect story joke about it later? ", videos: ["j-4EJaNON3g"]}
 ,{id:1020, text:"What would you do if you were to turn into the other gender? ", videos: ["eO647L2qF-o"]}
 ,{id:1021, text:"After you break up with somebody, is it weird to still be Friends \nwith their Friends??? ", videos: ["eO647L2qF-o"]}
-,{id:1022, text:"Do you see yourseIF staying in LA permanently? Or would you \nwant to move to another city (or country). If so, where and why? h ", videos: ["eO647L2qF-o"]}
+,{id:1022, text:"Do you see yourself staying in LA permanently? Or would you want to move to another city (or country). If so, where and why?", videos: ["eO647L2qF-o"]}
 ,{id:1023, text:"Favorite kind of food condiment? ", videos: ["eO647L2qF-o"]}
 ,{id:1024, text:"What thing from your childhood did you hate back then, but love new? ", videos: ["9xJAVgTDgIk"]}
 ,{id:1025, text:"What is the most awkward experience you've ever had? \nDid it just happen? Yes or no? ", videos: ["9xJAVgTDgIk"]}
@@ -1051,7 +1051,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1050, text:"1  Have you ever done anything on Halloween that you regret  \n immensely? Mine was eating all my cancly in one sittingl ", videos: ["ZjnwFQNqKE0"]}
 ,{id:1051, text:"What is your saddest childhood story? ", videos: ["AtzAvdkeY58"]}
 ,{id:1052, text:"What's the worst piece oi advice you've ever received or given? ", videos: ["AtzAvdkeY58"]}
-,{id:1053, text:"What was the most clever \"joke\" kids macle about your names... \n I got \"Houston, we have a problem\" alot and \"oh, like meet... \n...tI1e l:ocI(ers\" because my last name is Houston-Fodder, love... \n you guys by the wayu ", videos: ["AtzAvdkeY58"]}
+,{id:1053, text:"What was the most clever \"joke\" kids made ab out your names? I got \"Houston, we have a problem\" alot and \"oh, like Meet the Fockers\" because my last name is Houston-Fockler. Love you guys by the way!!", videos: ["AtzAvdkeY58"]}
 ,{id:1054, text:"Before you learned how babies were macle, what did you think...   \n happened? I though every girl was always pregnant and clidn't..: \n start growing the baby until they were marriecl. ", videos: ["AtzAvdkeY58"]}
 ,{id:1055, text:"ll you coulcl create your own planet, what would it be like? \nWould it be mostly liquid? gas? solid? What would its inl1al)itants.: \n be like? What would you name it? etc. ", videos: ["AtzAvdkeY58"]}
 ,{id:1056, text:"What toppings do you have on your pizza? ", videos: ["ee_HiJu0VaY"]}
@@ -1083,10 +1083,10 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1082, text:"If you coulcl choose how you clie, what would your death he? \nYou can use literally anything, even il it isn't real. ", videos: ["VqbnD8DYKB0"]}
 ,{id:1083, text:"What hairstyle have you always liked but aren't brave enough \nto try / know you can't pull om ", videos: ["VqbnD8DYKB0"]}
 ,{id:1084, text:"You are starving in the desert, crawling around and somebody \ncame up to you with food. ", videos: ["VqbnD8DYKB0"]}
-,{id:1085, text:"What's your favorite fa\" attivity? ", videos: ["6SR3NATv9r0"]}
-,{id:1086, text:"What movies do you watch or tencl to watch every year? ", videos: ["6SR3NATv9r0"]}
+,{id:1085, text:"\"What's your favorite fall attivity? 	\"", videos: ["6SR3NATv9r0"]}
+,{id:1086, text:"\"What movies do you watch or tend to watch every year? 	\"", videos: ["6SR3NATv9r0"]}
 ,{id:1087, text:"What is the craziest thing you have ever done while alone? ", videos: ["6SR3NATv9r0"]}
-,{id:1088, text:"If you coulcl resurrect one species from extinction, \nwI1at'cI it be and why? Avoid dinosaurs and the ice age. ", videos: ["6SR3NATv9r0"]}
+,{id:1088, text:"If you coulcl resurrect one species from extinction, what'd it be and why? Avoid dinosaurs and the ice age.", videos: ["6SR3NATv9r0"]}
 ,{id:1089, text:"WI1at'sthe weirdest thing you've ever done in a cinema/restaurant?   ", videos: ["-4O2VpeZkDk"]}
 ,{id:1090, text:"What's the funniest and/or saclclest thing you've ever \nread in the comments section? ", videos: ["-4O2VpeZkDk"]}
 ,{id:1091, text:"Please talk about weird erogenous zoned ", videos: ["-4O2VpeZkDk"]}
@@ -1099,11 +1099,11 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1098, text:"H Zootopia was a real phce and we would all be animals, \n what kind of animal ancl wlmatjob would you have? ", videos: ["rU4Khfvb_Ug"]}
 ,{id:1099, text:"Scary encounters with things in dark places? \nLike thinking you're being huowecl in the clark? ", videos: ["rU4Khfvb_Ug"]}
 ,{id:1100, text:"Give a (atchphrase to the person on your Ht. ", videos: ["rU4Khfvb_Ug"]}
-,{id:1101, text:"When was you heard a random Fart or Farted in front someone? ", videos: ["6DpN3_2x9Rs"]}
-,{id:1102, text:"Have you ever had to ca\" 911? H so, why? ", videos: ["6DpN3_2x9Rs"]}
-,{id:1103, text:"Has YouTuBe changed you as a person? Also, how do you feel  \n about Vine no longer being a thing? ", videos: ["6DpN3_2x9Rs"]}
+,{id:1101, text:"When was you heard a random fart or farted in front someone?", videos: ["6DpN3_2x9Rs"]}
+,{id:1102, text:"\"Have you ever had to call 911? If so, why? 	\"", videos: ["6DpN3_2x9Rs"]}
+,{id:1103, text:"\"Has YouTube changed you as a person? Also, how do you feel about Vine no longer being a thing? 	\"", videos: ["6DpN3_2x9Rs"]}
 ,{id:1104, text:"Have you had a moment in your life where you realized you are  \n like your parents? ", videos: ["6DpN3_2x9Rs"]}
-,{id:1105, text:"Can everyone please do their best WrestIin' Frecl impression? ", videos: ["6DpN3_2x9Rs"]}
+,{id:1105, text:"Can everyone please do their best Wrestlin' Fred impression?", videos: ["6DpN3_2x9Rs"]}
 ,{id:1106, text:"What are your least Favorite candies, ancl why? ", videos: ["UXbsP1vsFPE"]}
 ,{id:1107, text:"What is the most you've had to Jo to spare someone's feelings? ", videos: ["UXbsP1vsFPE"]}
 ,{id:1108, text:"What has been your proudest moment in your career/job so far? ", videos: ["UXbsP1vsFPE"]}
@@ -1226,7 +1226,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1225, text:"H you could instantly learn everything that one other person  ", videos: ["TyFux4AlCKY"]}
 ,{id:1226, text:"What scared the shit out of you when you were kids? ", videos: ["TyFux4AlCKY"]}
 ,{id:1227, text:"First album you ever bought? ", videos: ["TyFux4AlCKY"]}
-,{id:1228, text:"What's a type ol clothing which you lind really attractive? \nFor example, turthnecks. ", videos: ["TyFux4AlCKY"]}
+,{id:1228, text:"What's a type of clothing which you find really attractive? For example, turtlenecks.", videos: ["TyFux4AlCKY"]}
 ,{id:1229, text:"Free Pass: What's a story you've always wanted to share on  \n TaHeTa\"( but haven't had the chancei ", videos: ["TyFux4AlCKY"]}
 ,{id:1230, text:"If you could only wear one outfit everyday like the cartoons, what ...  \n WOUH YOU wear? ", videos: ["TyFux4AlCKY"]}
 ,{id:1231, text:"Vividly describe how you were in middle school with only 5 words. ", videos: ["TyFux4AlCKY"]}
@@ -1581,11 +1581,11 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1580, text:"@SourceFedNERD If you had intinite pockets, what would you carry with you at all times? #tabletalk ", videos: ["PRy9eSIKq_Y"]}
 ,{id:1581, text:"what is a tattoo that you theoretically want but will probably never get? ", videos: ["jxaakeK5Pgo"]}
 ,{id:1582, text:"If you were sentenced to death and had to choose a pokemon to end your life, which pokernon would you choose? ", videos: ["jxaakeK5Pgo"]}
-,{id:1583, text:"lfyouasksomeoneoutandtheysay'no'areyoualIowedtoaskthemagain later? ", videos: ["jxaakeK5Pgo"]}
-,{id:1584, text:"H m4s.,.r...,.. , ,.... .. ,  You go back in time to whenever you want with the ability to play any instrument and sing, but it messe are 4 of you. Which songs do you steal credit for?  5 up and now there    - ", videos: ["jxaakeK5Pgo"]}
+,{id:1583, text:"If you ask someone out and they say \"no\" are you allowed to ask them again later?", videos: ["jxaakeK5Pgo"]}
+,{id:1584, text:"You go back in time to whenever you want with the ability to play any instrument and sing, but it messes up and now there are 4 of you. Which songs do you steal credit for?", videos: ["jxaakeK5Pgo"]}
 ,{id:1585, text:"What's the lamest thing you're proud of? ", videos: ["jxaakeK5Pgo"]}
 ,{id:1586, text:"If you had your own pocket dimension (your actual happy place), what would you have in it, and how would you be able to get to it? i.e. a special key or teleporting there by thought. ", videos: ["jxaakeK5Pgo"]}
-,{id:1587, text:"@SouroeFedNERD how much money would it take to get you in the ring for a whole round with Ronda Rousay #TableTalk ", videos: ["jxaakeK5Pgo"]}
+,{id:1587, text:"How much money would it take to get you in the ring for a whole round with Ronda Rousey?", videos: ["jxaakeK5Pgo"]}
 ,{id:1588, text:"If you woke up in a jail cell with no memory of how you got there, what do you think you did? ", videos: ["jxaakeK5Pgo"]}
 ,{id:1589, text:"What's a tattoo that you would theoretically want but never get? ", videos: ["FH1PSh-MvnQ"]}
 ,{id:1590, text:"Whats your favorite type of taste? ex. sweet, sour, spicy ", videos: ["FH1PSh-MvnQ"]}
@@ -1594,11 +1594,11 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1593, text:"First time getting high/drunk... Whichever is a better story ", videos: ["YVuMxMbTjII"]}
 ,{id:1594, text:"You just got handed an indestructible super puppy, what do you do? ", videos: ["YVuMxMbTjII"]}
 ,{id:1595, text:"Where's the weirdest place you've masturbated? ", videos: ["YVuMxMbTjII"]}
-,{id:1596, text:"@SouroeFedNERD #tabIetaIk What food or drink did you love as a child. but can't stand now. Mine is bananas. ", videos: ["YVuMxMbTjII"]}
+,{id:1596, text:"What food or drink did you love as a child. But can't stand now. Mine is bananas.", videos: ["YVuMxMbTjII"]}
 ,{id:1597, text:"If you were able to take an all expenses paid luxury vacation to anywhere in the worId with Editor Brett where would you choose to go? ", videos: ["YVuMxMbTjII"]}
 ,{id:1598, text:"What is the first R-rated movie you remember seeing? ", videos: ["YVuMxMbTjII"]}
 ,{id:1599, text:"Sourcefed now has company uniforms. What do you imagine they would look like? ", videos: ["YVuMxMbTjII"]}
-,{id:1600, text:"@SourceFedNERD ittabletalk Treehouse or Cavehouse? You have to live in it for the rest of your life ", videos: ["YVuMxMbTjII"]}
+,{id:1600, text:"Treehouse or cavehouse? You have to live in it for the rest of your life.", videos: ["YVuMxMbTjII"]}
 ,{id:1601, text:"What's your worst tactile experience ever? For me, it was sieppin n cold cat vomit at three in the morning with bare Veet...thanks Piper (my cat). ", videos: ["nuHJksFbO2U"]}
 ,{id:1602, text:"whatmovios<idyoucryat?PixariseasymodeBTw ", videos: ["nuHJksFbO2U"]}
 ,{id:1603, text:"You have to choose one condiment to go on all your toad (Brsakfas1, Lunch. Dinner, and Deserts) tor the rest of your life. whim condiment would that be? ", videos: ["nuHJksFbO2U"]}
@@ -1675,9 +1675,9 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1674, text:"@SourceFedNERD Has there ever been a time where a prank has gone too far? #TabIeTaIk ", videos: ["4wqJrgdGuzU"]}
 ,{id:1675, text:"What was the most awkward/uncomfortable or strangest moment at a family gathering. My young cousin lifted up his leg and let rip a massive fart in the living room after a funeral. Everyone pretended it didn't happen while I had to leave the room. ", videos: ["4wqJrgdGuzU"]}
 ,{id:1676, text:"What is one gadget or piece of technology you would like to see and expect to be created in the near future?", videos: ["vQPb-qgsh04"]}
-,{id:1677, text:"@SourceFedNERD if you could change or add one thing to the human anatomy that would benem society what would you change or add #TableTalk ", videos: ["vQPb-qgsh04"]}
+,{id:1677, text:"If you could change or add one thing to the human anatomy that would benefit society, what would you change or add?", videos: ["vQPb-qgsh04"]}
 ,{id:1678, text:"If you could have any creature (real/mythical) what would it be? ", videos: ["vQPb-qgsh04"]}
-,{id:1679, text:"Better date idea: 505 drive in or 20s Gatsby party? ", videos: ["vQPb-qgsh04"]}
+,{id:1679, text:"Better date idea: 50s drive in or 20s Gatsby party?", videos: ["vQPb-qgsh04"]}
 ,{id:1680, text:"As a kid, what was that one present you always wanted from Santa but never got? Do you still want it? Mine was one of those Lego electric train sets and yes, I'd still love to get one 2P ", videos: ["xHmcEQEk9Jo"]}
 ,{id:1681, text:"Gsourcefed @souroeFedNERD Do you have any ttaditions for sick days? Like I make myself an egg mcmuftin and watch Firefly #1abletaIk ", videos: ["xHmcEQEk9Jo"]}
 ,{id:1682, text:"If you cloud only watch half of the movies, which half would you choose? ", videos: ["xHmcEQEk9Jo"]}
@@ -1690,7 +1690,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:1689, text:"What would you do if you had the power to change your sex/gender at anytime (available multiple times). ", videos: ["-Lm9UBtm-l4"]}
 ,{id:1690, text:"If you were a video game character, what food item(s) would you choose to regenerate your health? what food item(s) wuuld give you a negative side effect? ", videos: ["-Lm9UBtm-l4"]}
 ,{id:1691, text:"If you were to build an army who/what would make it in the ranks? Can be real or mythological beings and you can pick more than one thing. ", videos: ["-Lm9UBtm-l4"]}
-,{id:1692, text:"6sourceFedNERDdonos1Iilshaveascentandwejustgetusedtoit? #TableTalk ", videos: ["-Lm9UBtm-l4"]}
+,{id:1692, text:"Do nostrils have a scent and we just get used to it?", videos: ["-Lm9UBtm-l4"]}
 ,{id:1693, text:"If someone handed you a book of your life, would you read it to the end? ", videos: ["vtIiC2W8AhU"]}
 ,{id:1694, text:"@SourcaFedNERD What is one thing from your home town you wish you had in your currant city?#TabIeTaIk ", videos: ["vtIiC2W8AhU"]}
 ,{id:1695, text:"@SonrceFedNEHD any a-dvice on dealing with stuff when moving away from family and friends for a job? #TableTalk ", videos: ["vtIiC2W8AhU"]}
@@ -2417,7 +2417,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:2416, text:"@sourcefed what is your favorite brand of potato chip? #tabIetalk ", videos: ["WB-1xje2hVQ"]}
 ,{id:2417, text:"Have you ever found anything really awesome at a thrift store or rummage sale? ", videos: ["WB-1xje2hVQ"]}
 ,{id:2418, text:"Have you seen the shows that you have voiced for and if so which is your favorite one or got more recognition in? #TableTalk @thatgrltrish ", videos: ["BfwUSRT_C4Q"]}
-,{id:2419, text:"@thatgrltrish most tedious and favorite daily activity that has to be done (excluding eating, sleeping socializing.) tttabletalk ", videos: ["BfwUSRT_C4Q"]}
+,{id:2419, text:"Most tedious and favorite daily activity that has to be done (excluding eating, sleeping socializing.)", videos: ["BfwUSRT_C4Q"]}
 ,{id:2420, text:"ttTabIetalk if you could be the king/queen of any place, where would it be and how would you come to be its royalty. ", videos: ["BfwUSRT_C4Q"]}
 ,{id:2421, text:"#TabIeTalk Question for Blum and Baker: So far in your career, what has been the most difficult thing that you had to face as a voice actor? ", videos: ["BfwUSRT_C4Q"]}
 ,{id:2422, text:"What are some strange things you've collected? ", videos: ["3pCpQWhlSR0"]}
@@ -2708,7 +2708,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:2707, text:". , ..... 4.. . ,,,  if you had the choice to change one thing about the human anatomy (Le wings, stomach pouch for easy pop tart transportation) what would you choice?  webbed feet, ", videos: ["TTrKK_DHpR4"]}
 ,{id:2708, text:"If you were in a buddy cop mova \nanimal would it be, and who'sV ", videos: ["YtNbt-Xc1kA"]}
 ,{id:2709, text:"What childhood hangout do you: ", videos: ["YtNbt-Xc1kA"]}
-,{id:2710, text:"How did you get to school? K ", videos: ["YtNbt-Xc1kA"]}
+,{id:2710, text:"How did you get to school? Funny Stories?", videos: ["YtNbt-Xc1kA"]}
 ,{id:2711, text:"OSourceFedNERD wtabletalk what would be your favorite pastime as an elderly person, the cool thing for old people in 40 years. ", videos: ["Q8QInffUmj0"]}
 ,{id:2712, text:"what Ectnonal food from a tv show or ITIOVIS would you most like to eat?...mine would be an Evedasting Gobstopper it atways looked so good. ", videos: ["Q8QInffUmj0"]}
 ,{id:2713, text:"0SourceFedNERD DeFranco Inc is closing down. Looting runs rampantl Quick. what's the ONE thing you grab from the onlce? #TahloTalk ", videos: ["Q8QInffUmj0"]}
