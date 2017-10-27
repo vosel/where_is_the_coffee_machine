@@ -2707,7 +2707,7 @@ var questions = [{id:0, text:"You have to break a world record in the next week 
 ,{id:2706, text:"uaunuu u...n.  Any news on p before Willy Nelson is so much fertilize  oi fest?? Been waiting and waiting, you guys need to hurry r illemmetabletalk ", videos: ["TTrKK_DHpR4"]}
 ,{id:2707, text:". , ..... 4.. . ,,,  if you had the choice to change one thing about the human anatomy (Le wings, stomach pouch for easy pop tart transportation) what would you choice?  webbed feet, ", videos: ["TTrKK_DHpR4"]}
 ,{id:2708, text:"If you were in a buddy cop mova \nanimal would it be, and who'sV ", videos: ["YtNbt-Xc1kA"]}
-,{id:2709, text:"What childhood hangout do you: ", videos: ["YtNbt-Xc1kA"]}
+,{id:2709, text:"What childhood hangout do you miss the most?", videos: ["YtNbt-Xc1kA"]}
 ,{id:2710, text:"How did you get to school? Funny Stories?", videos: ["YtNbt-Xc1kA"]}
 ,{id:2711, text:"OSourceFedNERD wtabletalk what would be your favorite pastime as an elderly person, the cool thing for old people in 40 years. ", videos: ["Q8QInffUmj0"]}
 ,{id:2712, text:"what Ectnonal food from a tv show or ITIOVIS would you most like to eat?...mine would be an Evedasting Gobstopper it atways looked so good. ", videos: ["Q8QInffUmj0"]}
